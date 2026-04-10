@@ -64,7 +64,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
----
+
 
  ## 🌱 zone-service.yml
 
@@ -80,7 +80,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
----
+
 
 ## 🌡 sensor-service.yml
 
@@ -96,7 +96,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
----
+
 
 ## 🌾 crop-service.yml
 
@@ -112,7 +112,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
----
+
 
 ## 🤖 automation-service.yml
 
@@ -128,7 +128,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
----
+
 
 ## 🌐 api-gateway.yml
 
@@ -144,7 +144,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
----
+
 
 ## 🧭 eureka-server.yml
 
