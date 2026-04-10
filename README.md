@@ -183,9 +183,13 @@ YAML Configuration Management
 ## 🎯 Purpose of This Repository
 
 ✔ Centralized configuration management
+
 ✔ Avoid hardcoding configuration in services
+
 ✔ Easy maintenance and updates
+
 ✔ Supports microservice scalability
+
 ✔ Dynamic configuration loading via Config Server
 
 
