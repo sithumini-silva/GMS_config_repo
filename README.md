@@ -49,9 +49,8 @@ All services load their configuration from this repository using **Spring Cloud 
 
 ## 🌱 Example Configurations
 
---
 
-👤 user-service.yml
+## 👤 user-service.yml
 
 server:
   port: 8081
@@ -65,9 +64,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
+---
 
-
- 🌱 zone-service.yml
+ ## 🌱 zone-service.yml
 
  server:
   port: 8082
@@ -81,9 +80,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
+---
 
-
-🌡 sensor-service.yml
+## 🌡 sensor-service.yml
 
 server:
   port: 8085
@@ -97,9 +96,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
+---
 
-
-🌾 crop-service.yml
+## 🌾 crop-service.yml
 
 server:
   port: 8084
@@ -113,9 +112,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
+---
 
-
-🤖 automation-service.yml
+## 🤖 automation-service.yml
 
 server:
   port: 8083
@@ -129,9 +128,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
+---
 
-
-🌐 api-gateway.yml
+## 🌐 api-gateway.yml
 
 server:
   port: 8080
@@ -145,9 +144,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
+---
 
-
-🧭 eureka-server.yml
+## 🧭 eureka-server.yml
 
 server:
   port: 8761
@@ -167,7 +166,7 @@ eureka:
 
 
 
-🚀 Technologies Used
+## 🚀 Technologies Used
 Spring Boot
 Spring Cloud Config
 Netflix Eureka Server
@@ -181,7 +180,7 @@ YAML Configuration Management
 
 
 
-🎯 Purpose of This Repository
+## 🎯 Purpose of This Repository
 
 ✔ Centralized configuration management
 ✔ Avoid hardcoding configuration in services
@@ -195,7 +194,7 @@ YAML Configuration Management
 
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Sithumini Silva
 
@@ -205,7 +204,7 @@ Sithumini Silva
 
 
 
-📌 Important Note
+## 📌 Important Note
 
 All YAML files must match the exact spring.application.name of each microservice.
 
