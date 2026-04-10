@@ -24,17 +24,18 @@ All services load their configuration from this repository using **Spring Cloud 
 
 ## 🗂️ Repository Structure
 
-## GMS_config_repo/
-## │
-## ├── user-service.yml
-## ├── zone-service.yml
-## ├── sensor-service.yml
-## ├── crop-service.yml
-## ├── automation-service.yml
-## ├── api-gateway.yml
-## ├── eureka-server.yml
-## └── application.yml
-
+```
+GMS_config_repo/
+│
+├── user-service.yml
+├── zone-service.yml
+├── sensor-service.yml
+├── crop-service.yml
+├── automation-service.yml
+├── api-gateway.yml
+├── eureka-server.yml
+└── application.yml
+```
 
 ---
 
