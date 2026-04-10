@@ -53,6 +53,7 @@ GMS_config_repo/
 
 ## 👤 user-service.yml
 
+```
 server:
   port: 8081
 
@@ -64,11 +65,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-
+```
 
 
  ## 🌱 zone-service.yml
 
+```
  server:
   port: 8082
 
@@ -80,11 +82,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-
+```
 
 
 ## 🌡 sensor-service.yml
 
+```
 server:
   port: 8085
 
@@ -96,11 +99,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-
+```
 
 
 ## 🌾 crop-service.yml
 
+```
 server:
   port: 8084
 
@@ -112,11 +116,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-
+```
 
 
 ## 🤖 automation-service.yml
 
+```
 server:
   port: 8083
 
@@ -128,11 +133,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-
+```
 
 
 ## 🌐 api-gateway.yml
 
+```
 server:
   port: 8080
 
@@ -144,11 +150,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-
+```
 
 
 ## 🧭 eureka-server.yml
 
+```
 server:
   port: 8761
 
@@ -160,7 +167,7 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-
+```
 
 
 ---
